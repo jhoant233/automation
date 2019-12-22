@@ -1,4 +1,4 @@
-# automation
+# Automation
 Automatizaciones con Screenplay, Serenity BDD, Cucumber, JUnit, Gradle y Maven.
 
 Estas son algunas de las pruebas automatizaciones realizadas en mis tiempos libres aplicando buenas prácticas como SOLID, BDD, TDD y POO.
