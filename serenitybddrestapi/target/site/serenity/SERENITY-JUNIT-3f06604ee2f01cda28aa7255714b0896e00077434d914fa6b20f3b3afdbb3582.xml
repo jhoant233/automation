@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="SerenityInitialTests" skipped="0" tests="1" time="4.65" timestamp="2019-10-17 10:29:42"><testcase classname="SerenityInitialTests" name="Register user test"><failure message="&#10;Expected: &lt;200&gt;&#10;     but: was &lt;400&gt;" type="java.lang.AssertionError">
+Expected: &lt;200&gt;
+     but: was &lt;400&gt;</failure><system-err>
+Expected: &lt;200&gt;
+     but: was &lt;400&gt;&#13;
+SerenityInitialTests.registerUserTest(SerenityInitialTests.java:64)&#13;
+</system-err></testcase></testsuite>

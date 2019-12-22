@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0f630afb752cebdc2677f6431182e29ae4b3d6784652b2eedba356b4085b3bb4.html">Reservacion De Vuelo</a></span>
+                > <span class="truncate-60"><a
+                    href="69524d755cadc3bdf7562c34fb247410fa810456a118a0dbd8302ee3aafe64cb.html">Reserva de vuelo exitosa </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-08-2019 11:06</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Reservacion De Vuelo</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como un usuario deseo reserva un vuelo por medio de la pagina VivaAerobus
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Reserva de vuelo exitosa
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given Mila entro en VivaAerobus" width="1366"/>
+                <img src="07063a70e61dfdeb426459a96d4fc573cb61c451ea3b0debeef8da13242dc1e1.png" title="Given Mila entro en VivaAerobus" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Mila opens the Ingresar a viva aerobus" width="1366"/>
+                <img src="502fc0db13ada1df9defdb385afddd5c659e88c73d1a86e9fd9f51f80561c2c3.png" title="Mila opens the Ingresar a viva aerobus" width="1366"/>
+                <img src="0f4119e4095ca195e0210cc2904a6fbb342ce582f4bd5d426b83e98b7197f08a.png" title="When Mila busca reservar un vuelo
+| Origen | Destino | Adultos | Ninos | Infantes | Mes | Dia |
+| Cancun | Camaguey | 2 | 1 | 1 | Agosto | 10 |" width="1366"/>
+                <img src="c19f4baa66cbd1b5fa8426950637b28e0df8c156fd8df670d0d40a7942f9c24e.png" title="Mila clicks on Buscar campo despegue" width="1366"/>
+                <img src="c19f4baa66cbd1b5fa8426950637b28e0df8c156fd8df670d0d40a7942f9c24e.png" title="Mila enters 'Cancun' into Buscar campo despegue" width="1366"/>
+                <img src="1054f0513cfe6ce7da37ec5f7ca3c28d9bc23e647c6da6a9ffb90f324a8698a9.png" title="Mila enters 'Cancun' into Buscar campo despegue" width="1366"/>
+                <img src="a206e48d365411fe629f57ad0fe7b6c637cc6f34676d5f6ae2ce71e9cc20bf5e.png" title="Mila clicks on Seleccionar despegue click" width="1366"/>
+                <img src="1111679bfdb0380eaca6fb266d4ab295c7d9d22c735fe2be7d3231d599930257.png" title="Mila clicks on Seleccionar despegue click" width="1366"/>
+                <img src="1111679bfdb0380eaca6fb266d4ab295c7d9d22c735fe2be7d3231d599930257.png" title="Mila clicks on Listo destino" width="1366"/>
+                <img src="6d12b21c3aeb2fe499c6477b7fee85aa64890e65175c59c04a0f12b2ce92bb27.png" title="Mila clicks on Listo destino" width="1366"/>
+                <img src="2bbe690cb1cb5dc279fc88f9bcee0d2ae15a7ab9d2b613fadbe98609ac8e9fca.png" title="Mila enters 'Camaguey' into Listo destino" width="1366"/>
+                <img src="0a39c1c1ec0ca2d416d42dd85f5241ef93321b7bd28f8112c147f51461cf639c.png" title="Mila enters 'Camaguey' into Listo destino" width="1366"/>
+                <img src="ae1d149c1d2c478be9b513c47c228abe8c0c439d830d99460011e024f875cf6d.png" title="Mila clicks on Listo destino" width="1366"/>
+                <img src="0f5df30fd5c8959bc4f3e8822637f94617ca201f1c37559a13d20a9544017b9a.png" title="Mila clicks on Listo destino" width="1366"/>
+                <img src="53f9ccb389d7e9d81bf324db4d3e7829ad2193102520fe016f6a13373f7563e8.png" title="Mila clicks on agregar personas" width="1366"/>
+                <img src="7d4e12e4395492fd4cac0bd9c79e0620de0eba5b5597604fed1de96ea56113ca.png" title="Mila clicks on agregar personas" width="1366"/>
+                <img src="bf58c1e83456e1e7c92dd266abcf29361f927f4e19cd314f760600fc0214bad2.png" title="Mila clicks on Aumenta la cantidad de adultos" width="1366"/>
+                <img src="70f291ddc56ca8964da4f568baea6ed5ec034b0fdfab7694a1757e27dff6ba9d.png" title="Mila clicks on Aumenta la cantidad de adultos" width="1366"/>
+                <img src="7dc86b39fa17ddbc4f5e86fa61feb88692c0cd11294e60181f126c4d1208dc69.png" title="Mila clicks on Cambia a modo sencillo" width="1366"/>
+                <img src="0db7b336f5a7d773e024cffbd9b4e8257f25300c1f2f10b8e18f0fdf84453826.png" title="Mila clicks on Cambia a modo sencillo" width="1366"/>
+                <img src="f4df41c99963f42993bc426d6412835860dd9a45624661699b36432e44190c34.png" title="Mila clicks on Boton de busqueda" width="1366"/>
+                <img src="6e7eb6c44876b4d28a7038e33cc04a516fdbfea943450d979783155b3dd4e442.png" title="Mila clicks on Boton de busqueda" width="1366"/>
+                <img src="0f4119e4095ca195e0210cc2904a6fbb342ce582f4bd5d426b83e98b7197f08a.png" title="Then Mila valida que la informacion de la ventana contenga los datos del vuelo" width="1366"/>
+                <img src="0f4119e4095ca195e0210cc2904a6fbb342ce582f4bd5d426b83e98b7197f08a.png" title="Then dato buscado should be 'Canc&amp;uacute;n': <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.8</span>
+</div>
+</body>
+</html>

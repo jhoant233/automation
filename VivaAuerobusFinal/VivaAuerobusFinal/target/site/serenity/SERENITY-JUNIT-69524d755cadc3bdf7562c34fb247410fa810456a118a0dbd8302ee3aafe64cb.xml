@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Reservacion de vuelo" skipped="0" tests="1" time="11.55" timestamp="2019-09-25 09:10:28"><testcase name="Reserva de vuelo exitosa"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'DESKTOP-3A1NF2K', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x006F1B43+1448771]&#10;&#9;Ordinal0 [0x00675A31+940593]&#10;&#9;Ordinal0 [0x00602293+467603]&#10;&#9;Ordinal0 [0x0059F27E+62078]&#10;&#9;Ordinal0 [0x0059BBBD+48061]&#10;&#9;Ordinal0 [0x005B8D09+167177]&#10;&#9;Ordinal0 [0x005B88DD+166109]&#10;&#9;Ordinal0 [0x005B6FEB+159723]&#10;&#9;Ordinal0 [0x005A09F6+68086]&#10;&#9;Ordinal0 [0x005A1990+72080]&#10;&#9;Ordinal0 [0x005A1929+71977]&#10;&#9;GetHandleVerifier [0x00832E8C+1172172]&#10;&#9;GetHandleVerifier [0x0078FE55+504469]&#10;&#9;GetHandleVerifier [0x0078FBF0+503856]&#10;&#9;Ordinal0 [0x006FC9C8+1493448]&#10;&#9;GetHandleVerifier [0x0079062A+506474]&#10;&#9;Ordinal0 [0x00687156+1012054]&#10;&#9;Ordinal0 [0x00686FCF+1011663]&#10;&#9;Ordinal0 [0x0069135B+1053531]&#10;&#9;Ordinal0 [0x006914C3+1053891]&#10;&#9;Ordinal0 [0x006904F5+1049845]&#10;&#9;BaseThreadInitThunk [0x75EF6359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77AB7B74+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77AB7B44+180]&#10;" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-3A1NF2K', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006F1B43+1448771]
+	Ordinal0 [0x00675A31+940593]
+	Ordinal0 [0x00602293+467603]
+	Ordinal0 [0x0059F27E+62078]
+	Ordinal0 [0x0059BBBD+48061]
+	Ordinal0 [0x005B8D09+167177]
+	Ordinal0 [0x005B88DD+166109]
+	Ordinal0 [0x005B6FEB+159723]
+	Ordinal0 [0x005A09F6+68086]
+	Ordinal0 [0x005A1990+72080]
+	Ordinal0 [0x005A1929+71977]
+	GetHandleVerifier [0x00832E8C+1172172]
+	GetHandleVerifier [0x0078FE55+504469]
+	GetHandleVerifier [0x0078FBF0+503856]
+	Ordinal0 [0x006FC9C8+1493448]
+	GetHandleVerifier [0x0079062A+506474]
+	Ordinal0 [0x00687156+1012054]
+	Ordinal0 [0x00686FCF+1011663]
+	Ordinal0 [0x0069135B+1053531]
+	Ordinal0 [0x006914C3+1053891]
+	Ordinal0 [0x006904F5+1049845]
+	BaseThreadInitThunk [0x75EF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77AB7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77AB7B44+180]
+</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 75
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-3A1NF2K', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006F1B43+1448771]
+	Ordinal0 [0x00675A31+940593]
+	Ordinal0 [0x00602293+467603]
+	Ordinal0 [0x0059F27E+62078]
+	Ordinal0 [0x0059BBBD+48061]
+	Ordinal0 [0x005B8D09+167177]
+	Ordinal0 [0x005B88DD+166109]
+	Ordinal0 [0x005B6FEB+159723]
+	Ordinal0 [0x005A09F6+68086]
+	Ordinal0 [0x005A1990+72080]
+	Ordinal0 [0x005A1929+71977]
+	GetHandleVerifier [0x00832E8C+1172172]
+	GetHandleVerifier [0x0078FE55+504469]
+	GetHandleVerifier [0x0078FBF0+503856]
+	Ordinal0 [0x006FC9C8+1493448]
+	GetHandleVerifier [0x0079062A+506474]
+	Ordinal0 [0x00687156+1012054]
+	Ordinal0 [0x00686FCF+1011663]
+	Ordinal0 [0x0069135B+1053531]
+	Ordinal0 [0x006914C3+1053891]
+	Ordinal0 [0x006904F5+1049845]
+	BaseThreadInitThunk [0x75EF6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77AB7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77AB7B44+180]
+&#13;
+mx.com.vivaaerobus.stepsdefinitions.VivaAerobusStepsDefinitions.setUp(VivaAerobusStepsDefinitions.java:36)&#13;
+cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+</system-err></testcase></testsuite>
